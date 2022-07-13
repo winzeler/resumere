@@ -1,0 +1,32 @@
+{
+  "name": "unique-playgrounds",
+  "description": "Helpers for Unique Network chain",
+  "version": "924010",
+  "author": "Unique Network",
+  "license": "Apache 2.0",
+  "scripts": {
+    "playground": "node cli.js run_playground",
+    "command": "node cli.js run_command",
+    "test": "jest --config tests/misc/jest.config.json --runInBand"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@polkadot/api": "8.6.2",
+    "@polkadot/keyring": "9.3.1",
+    "@polkadot/networks": "9.3.1",
+    "@polkadot/util": "9.3.1",
+    "@polkadot/util-crypto": "9.3.1",
+    "@polkadot/wasm-crypto": "6.1.1",
+    "@unique-nft/api": "^0.1.5",
+    "@unique-nft/opal-testnet-types": "0.5.3",
+    "@unique-nft/quartz-mainnet-types": "0.6.1",
+    "@unique-nft/unique-mainnet-types": "0.6.3",
+    "web3": "1.7.3"
+  },
+  "devDependencies": {
+    "jest": "27.5.1"
+  }
+}

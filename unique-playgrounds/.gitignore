@@ -1,0 +1,7 @@
+.idea
+node_modules
+package-lock.json
+src/playgrounds/config/global.js
+tests/config/*
+!tests/config/global.js
+!tests/config/index.js
