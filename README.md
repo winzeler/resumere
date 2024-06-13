@@ -1,3 +1,5 @@
+DEPRECATED 6-2024
+
 # RESUMERE.XYZ
 
 ## Returning ownership of your career data.
